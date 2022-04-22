@@ -1,0 +1,47 @@
+/*FADING*/
+.div-fade{
+    animation: fade 1s ease forwards;
+}
+
+@keyframes fade{
+    from{
+        opacity: 1;
+        display: block;
+    }
+    to{
+        opacity: 0;
+        display: none;
+    }
+}
+
+/*CENTERING*/
+.div-centering{
+    height: 70vh;
+    width: 60%;
+    background-color: aquamarine;
+    text-align: center;
+    line-height: 70vh;
+    margin: auto;
+}
+
+/*FOR SCROLLING AND MAKING 1rem=10px*/
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.texto1{
+    font-size: 20px;
+}
+
+.texto2{
+    font-size: 2rem;
+}
+
+/*COLORFUL BACKGROUND TEXT*/
+.div-colorful-letters{
+    display: inline;
+    background: linear-gradient(to left, rgb(123, 255, 255), rgb(255, 123, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

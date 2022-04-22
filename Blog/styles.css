@@ -1,0 +1,36 @@
+body{
+    font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
+}
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+.blog-header-logo{
+    font-size: 2.25rem;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.blog-header-search{
+    position: relative;
+}
+
+.blog-header-icon{
+    position: relative;
+    right: 1rem;
+}
+
+.outdoor-continue{
+    font-size: larger;
+}
+
+.card-rectangle{
+    position: relative;
+    background-color: #727272;
+}
+
+.card-rectangle-text{
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}

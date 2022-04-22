@@ -1,0 +1,71 @@
+.carousel-fundo{
+  background-color: #777;
+  height: 73.5vh;
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.square{
+  height: 27rem;
+  width: 27rem;
+  background-color: #eee;
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  line-height: 27rem;
+}
+
+.circle{
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 140px;
+  width: 140px;
+  background-color: #777;
+  border-radius: 50%;
+}
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+.largura{
+  width: 96%;
+}
+
+.divider{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  position: relative;
+}
+
+.divider-text{
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.col-md-4{
+  padding-right: 1.9rem;
+  padding-right: 1.9rem;
+  margin-bottom: 4.5rem;
+}
+
+.display-4{
+  color: #5a5a5a;
+  font-weight: 300;
+}
+
+.header-square{
+  font-size: 3rem;
+  font-weight: normal;
+}
